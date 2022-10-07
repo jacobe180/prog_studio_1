@@ -25,15 +25,15 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <LinkContainer to="/">
-              <Nav.Link>Dashboard</Nav.Link>
+              <Nav.Link>Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/about">
-              <Nav.Link>About</Nav.Link>
+              <Nav.Link>Our Purpose</Nav.Link>
             </LinkContainer>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item>Action</NavDropdown.Item>
+              <NavDropdown.Item>Census Data</NavDropdown.Item>
               <NavDropdown.Item>
-                Another action
+                Latest
               </NavDropdown.Item>
               <NavDropdown.Item>Something</NavDropdown.Item>
               <NavDropdown.Divider />
